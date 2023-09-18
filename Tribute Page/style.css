@@ -8,8 +8,8 @@ body, h1, h2, p, ul {
 
 body {
     font-family: Arial, sans-serif;
-    background-color: #f0f0f0;
-    color: #333;
+    background-color: #000000;
+    color: #0e0d0d;
 }
 
 h1 {
@@ -34,18 +34,28 @@ h2 {
     padding: 10px;
     margin-top: 20px; /* Add some spacing between h2 and content */
 }
+h2:hover
+{
+    background-color: red;
+   
+}
+h1:hover{
+    background-color: red;
+}
 
 p {
     margin: 10px 0;
     padding: 10px;
-    background-color: #fff;
-    border: 1px solid #ddd; /* Add a border around paragraphs */
+    background-color: #000000;
+    border: 1px solid #ffffff; /* Add a border around paragraphs */
     border-radius: 5px; /* Round the corners of paragraphs */
+    color: #ffffff;
 }
 
 ul {
     list-style-type: disc;
     margin-left: 20px;
+    color: #f9f9f9;
 }
 
 /* Add hover effect for links */
